@@ -1,0 +1,32 @@
+.card{
+    height: 500px;
+    width:700px;
+    margin:10px;
+}
+
+.custom-card{
+width: 18rem;
+height: auto;}
+
+.list-group-item{
+    min-height:150px;
+}
+.card-footer{
+    padding-left: 257px;
+}
+.dbShow{
+    text-align: center;
+    margin-top: 50px;
+    /* vertical-align: middle; */
+    padding: 30px;
+}
+.dbShow1{
+    text-align: center;
+}  
+.card8{
+    height: 200px;
+}
+.fa.fa-solid.fa-database{
+    font-size: 3rem; 
+    color: skyblue;
+}

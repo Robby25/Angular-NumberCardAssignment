@@ -1,0 +1,97 @@
+<div class="card bg-white" style="border-radius: 6px;">
+    <div class="card-header bg-white">
+        <div class="float-end">
+            <i class="fa fa-edit" style="font-size: 1.8rem;"></i> &nbsp;
+            <i class="fa fa-close" style="font-size: 1.8rem;"></i>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-8 card8">
+                <!-- <ngx-charts-number-card [results]="productSales" [view]="view" [scheme]="colorScheme"
+                    [cardColor]="cardColor" (select)="onSelect($event)"><i class="fa-solid fa-database"></i>
+                </ngx-charts-number-card> -->
+                <div class="dbShow">
+                    <i class={{controllerObj.controller_icon}}></i> <span style="font-size: 4rem; font-weight: 700;">&nbsp;{{controllerObj.controller_health}}</span>
+                </div>
+                <div>
+                    <h2 style="text-align: center; font-weight: 700;">{{controllerObj.text}}</h2>
+                </div>
+            </div>
+            <div class="col-4">
+                <div>
+                    <div class="dbShow1">
+                        <i class="fa fa-check" style="font-size: 3rem; color: greenyellow;"></i> <span style="font-size: 4rem; font-weight: 700;">&nbsp;{{controllerObj.controller_health}}</span>
+                    </div>
+                    <div>
+                        <h2 style="text-align: center; font-weight: 700;">{{controllerObj.controller_status_1}}</h2>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <div class="dbShow1">
+                        <i class="fa fa-close" style="font-size: 3rem; color: bisque;"></i> <span style="font-size: 4rem; font-weight: 700;">&nbsp;{{controllerObj.controller_health}}</span>
+                    </div>
+                    <div>
+                        <h2 style="text-align: center; font-weight: 700;">{{controllerObj.controller_status_2}}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-footer bg-primary" style="margin-bottom: 30px;">
+        <h2 class="title-3" style="color:#fff">{{controllerObj.title}}</h2>
+    </div>
+</div>
+
+
+
+
+<!-- <div class="card bg-white">
+    <div class="card-header bg-white">
+        <div class="float-end">
+           <i class="fa fa-edit"></i>  &nbsp;
+             <i class="fa fa-close"></i>
+        </div>
+        
+    </div>
+    <div class="card-body">
+        <div class="container">
+            <table>
+                <tr>
+                    <td class="col-8">
+                        <span class="text-primary"> 
+                            <i class="fa fa-database "></i>
+                        </span>
+                        <ngx-charts-number-card   [results]="productSales" [view]="view" [scheme]="colorScheme" [cardColor]="cardColor" (select)="onSelect($event)">
+                        </ngx-charts-number-card> 
+                    </td>
+                  
+                        <td>
+                            <span class="text-primary"> 
+                                <i class="fa fa-database "></i>
+                            </span>
+                            <ngx-charts-number-card   [results]="productSales" [view]="view" [scheme]="colorScheme" [cardColor]="cardColor" (select)="onSelect($event)">
+                            </ngx-charts-number-card> 
+                        </td>
+                        <td>
+                            <span class="text-primary"> 
+                                <i class="fa fa-database "></i>
+                            </span>
+                            <ngx-charts-number-card   [results]="productSales" [view]="view" [scheme]="colorScheme" [cardColor]="cardColor" (select)="onSelect($event)">
+                            </ngx-charts-number-card> 
+                        </td>
+                    <td>
+                        
+                    </td>
+                </tr>
+               
+         </table>
+            
+          </div>
+    </div>
+    <div class="card-footer bg-primary">
+      <h3 class="title-3">Number Card</h3>
+    </div>
+  </div>
+   -->
